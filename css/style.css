@@ -33,6 +33,7 @@ body {
     "comments";
 	text-align: center;
 	min-width: 340px;
+    min-height: 700px;
 }
 .header {
 	padding-top: 2rem;
@@ -95,7 +96,6 @@ body {
 	padding: 2rem;
 	width: 340px;
 	color: var(--white);
-    height: 240px;
 }
 .comment__header {
 	display: flex;
@@ -140,7 +140,7 @@ body {
         max-width: 1100px;
         padding: 3rem;
         grid-template-columns: repeat(2,50%);
-        grid-template-rows: 40% 60%;
+        grid-template-rows: 40% 40%;
         grid-template-areas: 
         "header rate"
         "comments comments";
