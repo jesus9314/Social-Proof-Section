@@ -35,6 +35,7 @@ body {
 	text-align: center;
 	min-width: 340px;
     min-height: 700px;
+    gap: 1rem;
 }
 .header {
 	padding-top: 2rem;
